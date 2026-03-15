@@ -1,6 +1,6 @@
 // Static keyword
 
-public class Demo3 {
+public class Demo1 {
     public static void main(String[] args) {
         Student s1 = new Student("Aditya", 28, 101);
         Student s2 = new Student("Rohit", 28, 102);

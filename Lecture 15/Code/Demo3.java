@@ -1,6 +1,6 @@
 // Use of String[] args
 
-public class Demo5 {
+public class Demo3 {
     public static void main(String[] args) {
         System.out.println("Number of arguments are " + args.length);
 

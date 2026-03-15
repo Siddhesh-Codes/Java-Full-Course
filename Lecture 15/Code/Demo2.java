@@ -1,6 +1,6 @@
 // Final Keyword
 
-public class Demo4 {
+public class Demo2 {
     public static void main(String[] args) {
         Random r1 = new Random();
         System.out.println(r1.PI);
@@ -14,7 +14,7 @@ public class Demo4 {
 //why main is static in java ??
 // Demo4 d1 = new Demo4();
 // d1.main()
-// Demo4.main()
+// Demo2.main()
 
 class Random {
     static final double PI;
