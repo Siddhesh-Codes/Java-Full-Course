@@ -10,7 +10,6 @@ public class PackagesDemo {
 
         college.Student s1 = new college.Student();
         s1.print();
-
         school.Student s2 = new school.Student();
         s2.print();
     }
