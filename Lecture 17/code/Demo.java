@@ -6,7 +6,6 @@ public class Demo {
         car.brake();
     }
 }
-
 // abstract class Car {
 //     void start() {
 //         System.out.println("Car started");
