@@ -16,7 +16,6 @@ public class Demo {
 //     abstract void brake();
 // }
 
-
 // class FuelCar extends Car {
 
 //     @Override
