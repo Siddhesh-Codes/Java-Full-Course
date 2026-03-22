@@ -23,7 +23,6 @@ public class Demo3 {
 //     private void fun2() {
 //         System.out.println("Hello");
 //     }
-
 //     final void fun3() {
 //         System.out.println("Hello");
 //     }
