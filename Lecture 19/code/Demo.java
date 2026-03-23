@@ -48,7 +48,6 @@ class BankAccount {
     } 
 }
 
-
 // Use cases of static nested classes :
 /*
  1. As helper class for any outer class.
