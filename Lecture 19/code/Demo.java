@@ -42,7 +42,6 @@ class BankAccount {
             return principal * rate;
         }
     }
-
     public double computeIntersest(double principal) {
         return InterestCalculator.calculateYearly(principal, 0.09);
     } 
