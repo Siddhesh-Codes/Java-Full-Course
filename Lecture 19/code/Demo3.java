@@ -13,7 +13,6 @@ class Outer {
     void greet() {
         int y = 5;
         y++;
-
         class Local {
             void sayHello() {
                 System.out.println(y);
