@@ -44,6 +44,8 @@ class bankAccount {
             System.out.println(amount + " Withdrew Successfully");
         } 
     }
+
+    
     // getter/setter
     public double getBalance() {
         return balance;
