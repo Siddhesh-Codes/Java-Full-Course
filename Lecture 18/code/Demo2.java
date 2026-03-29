@@ -27,6 +27,7 @@ public class Demo2 {
         int y = x;
 
         System.out.println(y);
+        
     }
 
     static void printInteger(Integer x) {
