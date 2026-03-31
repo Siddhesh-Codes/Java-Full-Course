@@ -23,7 +23,6 @@ class Outer {
         local.sayHello();
     }
 }
-
 /*
 Contructor
 Method
