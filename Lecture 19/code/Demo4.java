@@ -9,7 +9,6 @@ public class Demo4 {
         // p2.introduce();
 
         Person p2 = new Person() {
-
             String name = "Aditya";
 
             @Override
@@ -17,22 +16,18 @@ public class Demo4 {
                 greet();
                 System.out.println("Hi, I am " + name);
             }
-
             void greet() {
                   System.out.println("Hello");
             }
         };
-
         p2.introduce();
     }
 }
 
 class Person {
-
     Person() {
 
     }
-
     void introduce() {
         System.out.println("Hi, I am a person");
     }
