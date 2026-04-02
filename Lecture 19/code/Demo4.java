@@ -4,7 +4,6 @@ public class Demo4 {
     public static void main(String[] args) {
         // Person p1 = new Person();
         // p1.introduce();
-
         // Person p2 = new Guest();
         // p2.introduce();
 
