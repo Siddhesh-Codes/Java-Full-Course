@@ -34,6 +34,7 @@ class Dog extends Animal {
     }
 }
 
+
 // Abstract classes
 //1. Cannot be instantiated directly
 //2. Can contain abstract method (method without implementations)
