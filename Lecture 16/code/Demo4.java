@@ -9,7 +9,6 @@ public class Demo4 {
         //CSEEngineeringStudent cs1 = new CSEEngineeringStudent();
     }
 }
-
 class Student { // Parent -> A
     String name;
     int age;
