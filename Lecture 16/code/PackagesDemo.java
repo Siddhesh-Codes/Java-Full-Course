@@ -14,6 +14,3 @@ public class PackagesDemo {
         s2.print();
     }
 }
-
-
-

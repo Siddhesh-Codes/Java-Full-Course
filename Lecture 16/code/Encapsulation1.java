@@ -45,7 +45,6 @@ class bankAccount {
         } 
     }
 
-    
     // getter/setter
     public double getBalance() {
         return balance;
