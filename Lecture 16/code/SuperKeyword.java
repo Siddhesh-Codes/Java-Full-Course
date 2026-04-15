@@ -1,14 +1,14 @@
 public class SuperKeyword {
     public static void main(String[] args) {
         // EngineeringStudent es1 = new EngineeringStudent();
-        // es1.name = "Aditya";
+        // es1.name = "Siddhesh";
         // es1.age = 28;
         // es1.rollNo = 101;
-        // es1.college = "IIT Guwahati";
+        // es1.college = "Pillai";
 
         // es1.print();
 
-    EngineeringStudent es2 = new EngineeringStudent("Aditya", 28, 101, "IIT G");
+    EngineeringStudent es2 = new EngineeringStudent("Siddhesh", 28, 101, "Pillai");
         es2.print();
     }
 }
