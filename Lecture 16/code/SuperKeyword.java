@@ -1,4 +1,4 @@
-public class Demo5 {
+public class SuperKeyword {
     public static void main(String[] args) {
         // EngineeringStudent es1 = new EngineeringStudent();
         // es1.name = "Aditya";
@@ -39,10 +39,10 @@ class EngineeringStudent extends Student {
         this.college = college;
     }
 
-    void print() {
+    void print() { 
        super.print();
        System.out.println(college);
     }
-
+ 
     
 }

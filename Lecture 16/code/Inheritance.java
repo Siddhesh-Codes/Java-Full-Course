@@ -1,4 +1,4 @@
-public class Demo3 {
+public class Inheritance {
     public static void main(String[] args) {
         EngineeringStudent es = new EngineeringStudent();
         es.markAttendance();
@@ -18,6 +18,7 @@ class Student {
     String name;
     int age;
 
+    // private void markAttendance --> this wont work
     public void markAttendance() {
         System.out.println("Attendance marked");
     }

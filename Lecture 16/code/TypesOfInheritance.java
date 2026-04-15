@@ -4,13 +4,24 @@
 // hierarchical inheritance
 // multiple inheritance (not supported in java)
 
-public class Demo4 {
+public class TypesOfInheritance {
     public static void main(String[] args) {
-        //CSEEngineeringStudent cs1 = new CSEEngineeringStudent();
+        // CSEEngineeringStudent cs1 = new CSEEngineeringStudent(); 
+
+        // cs1.markAttendance();
+        // cs1.attendLab();
+        // cs1.attendCSELab();
+
+        EngineeringStudent e = new EngineeringStudent();
+
+        e.markAttendance();
+        e.attendLab();
+
+        MedicalStudent m = new MedicalStudent();
+        m.markAttendance();
+        m.attendLab();
     }
 }
-
-
 
 class Student { // Parent -> A
     String name;
@@ -23,7 +34,7 @@ class Student { // Parent -> A
 
 class EngineeringStudent extends Student { // Child. --> B
     void attendLab() {
-        System.out.println("lab attended for engineerng student");
+        System.out.println("lab attended for engineering student");
     }
 }
 
@@ -32,6 +43,7 @@ class MedicalStudent extends Student { // Child. --> C
         System.out.println("lab attended for medical student");
     }
 }
+
 
 // class CSEEngineeringStudent extends EngineeringStudent {
 //     void attendCSELab() {
@@ -50,7 +62,7 @@ CSEEngineeringStudent
 */
 
 /*
-Hierrarchy 
+Hierarchy 
         A
       /   \
      B     C 
@@ -63,5 +75,4 @@ Multiple
          \  /
           C
 */     
-
 
