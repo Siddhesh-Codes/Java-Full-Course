@@ -26,6 +26,7 @@ public class Demo2 {
         Integer x = null;
         int y = x;
 
+        
         System.out.println(y);   
     }
 
