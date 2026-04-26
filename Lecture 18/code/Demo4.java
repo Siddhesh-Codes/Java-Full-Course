@@ -32,6 +32,8 @@ class Dog extends Animal {
         System.out.println("Making barking sound");
     }
 }
+
+
 // Abstract classes
 //1. Cannot be instantiated directly
 //2. Can contain abstract method (method without implementations)
