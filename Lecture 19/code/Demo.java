@@ -46,9 +46,6 @@ class BankAccount {
         return InterestCalculator.calculateYearly(principal, 0.09);
     } 
 }
-
-
-
 // Use cases of static nested classes :
 /*
  1. As helper class for any outer class.
