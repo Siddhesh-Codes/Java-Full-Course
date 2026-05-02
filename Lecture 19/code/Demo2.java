@@ -17,6 +17,8 @@ public class Demo2 {
     }
 }
 
+
+
 class Outer {
 
     int x = 10;
