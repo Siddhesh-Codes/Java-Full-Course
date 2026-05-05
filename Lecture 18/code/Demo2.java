@@ -2,7 +2,7 @@ public class Demo2 {
     public static void main(String[] args) {
         // Autoboxing
         // int x = 10;
-        // Integer y = x;  // autoboxing
+        // Integer y = x;  // Autoboxing
 
         // System.out.println(x);
         // System.out.println(y);  // unboxing
@@ -23,6 +23,7 @@ public class Demo2 {
         // int sum = a.intValue() + b.intValue();
         // System.out.println(sum);
 
+        // IMP: it will give error (Null pointer error)
         Integer x = null;
         int y = x;
 
@@ -34,6 +35,7 @@ public class Demo2 {
     }
 }
 
+// Works with
 // 1. Assignments
 // 2. Method calls
 // 3. Arithmetic operations

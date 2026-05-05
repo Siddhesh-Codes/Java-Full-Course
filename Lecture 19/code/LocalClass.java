@@ -1,6 +1,6 @@
 // Local classes
 
-public class Demo3 {
+public class LocalClass {
     public static void main(String[] args) {
         Outer outer = new Outer();
         outer.greet();
@@ -12,7 +12,7 @@ public class Demo3 {
 class Outer {
     void greet() {
         int y = 5;
-        y++;
+        // y += 1;
         class Local {
             void sayHello() {
                 System.out.println(y);
@@ -24,7 +24,7 @@ class Outer {
     }
 }
 /*
-Contructor
+Constructor
 Method
 If
 Loop

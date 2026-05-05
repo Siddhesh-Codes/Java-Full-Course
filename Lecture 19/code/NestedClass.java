@@ -1,10 +1,11 @@
-public class Demo {
+public class NestedClass {
     public static void main(String[] args) {
 
         Outer outer = new Outer();
 
         Outer.Inner inner = new Outer.Inner(outer);
         inner.fun();
+    
     }
 }
 
@@ -42,10 +43,13 @@ class BankAccount {
             return principal * rate;
         }
     }
-    public double computeIntersest(double principal) {
+    public double computeInterest(double principal) {
         return InterestCalculator.calculateYearly(principal, 0.09);
     } 
 }
+
+
+
 // Use cases of static nested classes :
 /*
  1. As helper class for any outer class.

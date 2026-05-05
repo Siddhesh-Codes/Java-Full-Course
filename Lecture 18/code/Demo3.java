@@ -9,6 +9,7 @@ public class Demo3 {
         Integer b = 200;
         // a == b --> If a and b points to same reference
 
+        System.out.println(a.intValue() == b.intValue());
         System.out.println(a.equals(b));
     }
 }

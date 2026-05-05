@@ -9,7 +9,7 @@ abstract class Animal {
     String name;
 
     Animal(String name) {
-        this.name = name;
+        this.name = name; 
     }
 
     void makeSound() {
@@ -42,7 +42,7 @@ class Dog extends Animal {
 //1. Can abstract classes have constructors?  --> Yes
 //2. Can abstract classes be final ? --> No
 //3. Can abstract class have static methods/variables ? --> Yes
-//4. Can abstract classes private methods ? --> yes but non abstract
-//5. Can abstract classes have final methods ? --> yes but non abstract
+//4. Can abstract classes private methods ? --> Yes but non abstract
+//5. Can abstract classes have final methods ? --> Yes but non abstract
 //6. Can abstract classes have no abstract method ? --> Yes
 

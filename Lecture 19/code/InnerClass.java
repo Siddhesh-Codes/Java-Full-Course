@@ -1,6 +1,6 @@
 // Inner class
 
-public class Demo2 {
+public class InnerClass {
     public static void main(String[] args) {
 
         Outer outer = new Outer();
@@ -12,7 +12,7 @@ public class Demo2 {
        // Outer.Inner inner = new Outer().new Inner();
 
         inner.fun();
-        inner.fun2();
+        inner.fun2();  
         Outer.Inner.fun2();
     }
 }

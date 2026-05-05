@@ -1,17 +1,19 @@
 // Anonymous class
 
-public class Demo4 {
+public class AnonymousClass {
     public static void main(String[] args) {
         // Person p1 = new Person();
         // p1.introduce();
         // Person p2 = new Guest();
         // p2.introduce();
 
+        // Anonymous Class
         Person p2 = new Person() {
-            String name = "Aditya";
+            String name = "Siddhesh";
 
             @Override
             void introduce() {
+                // we can call Anonymous Class methods in other class method. but we can't call it independently. 
                 greet();
                 System.out.println("Hi, I am " + name);
             }
@@ -19,6 +21,7 @@ public class Demo4 {
                   System.out.println("Hello");
             }
         };
+        // p2.greet(); // wrong.
         p2.introduce();
     }
 }
