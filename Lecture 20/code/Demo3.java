@@ -1,12 +1,15 @@
 // BufferedReader
 
 import java.io.*;
+import java.util.Arrays;
 
 public class Demo3 {
     public static void main(String[] args) throws IOException {
        // InputStreamReader isr = new InputStreamReader(System.in);
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int[] arr = Arrays.stream(br.readLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
         String name = br.readLine();
 
         System.out.println(name);
