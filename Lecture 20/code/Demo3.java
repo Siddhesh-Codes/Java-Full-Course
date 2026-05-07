@@ -7,7 +7,6 @@ public class Demo3 {
        // InputStreamReader isr = new InputStreamReader(System.in);
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         String name = br.readLine();
 
         System.out.println(name);
@@ -15,11 +14,11 @@ public class Demo3 {
 }
 
 /*
-1. Aditya -> i/p
-2. OS BUffer (65, 100, 105, 116, 121, 97)
-3. System.in (InputStream) recieves bytes
-4. INputStreamReader --> stream of bytes into stream of characters
-    ('A', 'd', 'i', 't', 'y', 'a')
-5. BufferedReader --> readLine --> Aditya --> name
-6. Aditya -> o/p
+1. Siddhesh -> i/p
+2. OS Buffer (65, 100, 105, 116, 121, 97)
+3. System.in (InputStream) receives bytes
+4. InputStreamReader --> stream of bytes into stream of characters
+    ('S', 'i', 'd', 'd', 'h', 'e', 's', 'h')
+5. BufferedReader --> readLine --> Siddhesh --> name
+6. Siddhesh -> o/p
 */

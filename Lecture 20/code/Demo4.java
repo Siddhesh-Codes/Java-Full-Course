@@ -10,5 +10,6 @@ public class Demo4 {
 
         System.out.println("age = " + age);
         System.out.println("Name = " + name);
+        
     }
 }

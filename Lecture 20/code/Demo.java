@@ -9,9 +9,6 @@ public class Demo {
         if(age < 0) {
             System.err.println("Invalid age");
         }
-
-
-
     }
 }
 // System class --> PrintStream out
