@@ -23,7 +23,6 @@ class PaymentStatus2 {
 
 // Enum --> Enumerations ( Enumerated type)
 // Enum --> Predefined set of constants.
-
 // Enum: A fixed set of predefined constants.
 
 // Advantages of Enum:
