@@ -22,7 +22,6 @@ interface C extends A {
          System.out.println("C");
     }
 }
-
 class D implements B, C {
     @Override
     public void fun() {
