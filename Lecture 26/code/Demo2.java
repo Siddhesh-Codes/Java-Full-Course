@@ -62,10 +62,10 @@ public class Demo2 {
         // System.out.println(s5 == s6);
 
         // format
-        String name = "Aditya";
-        int age = 28;
+        String name = "Siddhesh";
+        int age = 21;
 
-        // Hello Aditya, your age is 28;
+        // Hello Siddhesh, your age is 21;
 
         System.out.println("Hello" + " " + name + "," + " " + "your age is" + " " + age);
         System.out.println(String.format("Hello %s, your age is %s", name, age));
