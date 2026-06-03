@@ -77,7 +77,6 @@ public class Demo2 {
 // compareTo() --> -ve, 0 +ve
 
 // substring --> [, )
-
 /*
 String pool : "Hello" <-- s6
 Heap: s5 --> "Hello" 
