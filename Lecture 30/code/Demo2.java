@@ -5,11 +5,11 @@ public class Demo2 {
         String[] names = {"Aditya", "Rohit", "Rohan", "Monu"};
         NameContainer container = new NameContainer(names);
 
-        // Iterator<String> it = container.iterator();
+        Iterator<String> it = container.iterator();
 
-        // while(it.hasNext()) {
-        //     System.out.println(it.next());
-        // }
+        while(it.hasNext()) {
+            System.out.println(it.next());
+        }
 
         // Enhanced for loop
         for(String name : container) {
