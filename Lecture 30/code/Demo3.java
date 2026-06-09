@@ -16,6 +16,7 @@ public class Demo3 {
            if(value == 3) {
                 list.remove(value);
             }
+            
            System.out.println(value);
         }
     }
