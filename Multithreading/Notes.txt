@@ -1,0 +1,63 @@
+Multithreading: 
+It is a programming technique that allows multiple threads to run concurrently within a single process. Each thread can execute a portion of the program independently, which can improve performance and responsiveness.
+
+
+What is Process?
+A process is an instance of a program that is being executed. It contains the program code and its current activity. Each process has its own memory space, system resources, and execution context. Processes can run concurrently, and they can communicate with each other through inter-process communication (IPC) mechanisms.
+
+
+Process Architecture:
+1. Process Control Block (PCB): It is a data structure that contains information about the process, such as its state, program counter, registers, memory management information, and other relevant data.
+2. Memory Management: Each process has its own memory space, which includes code, data, and stack segments. The operating system manages the memory allocation and deallocation for each process.
+3. Scheduling: The operating system uses scheduling algorithms to determine which process gets to use the CPU at any given time. This allows multiple processes to run concurrently and share the CPU resources effectively.
+4. Inter-process Communication (IPC): Processes can communicate with each other using various IPC mechanisms, such as pipes, message queues, shared memory, and sockets. This allows processes to exchange data and coordinate their activities.
+
+
+Multithreading vs Multiprocessing:
+Multithreading and multiprocessing are two different approaches to achieving concurrent execution in a program.
+1. Multithreading: In multithreading, multiple threads run within the same process. They share the same memory space and resources, which allows for efficient communication and data sharing between threads. However, it also means that if one thread encounters an error or crashes, it can affect the entire process.
+2. Multiprocessing: In multiprocessing, multiple processes run independently, each with its own memory space and resources. This provides better isolation and fault tolerance, as one process crashing does not affect others. However, communication between processes can be more complex and may require IPC mechanisms.
+
+Advantages of Multithreading:
+- Improved performance and responsiveness
+- Efficient resource utilization
+- Better user experience
+- Reduced development time
+
+Disadvantages of Multithreading:
+- Complexity in programming and debugging
+- Potential for race conditions and synchronization issues
+- Increased overhead due to context switching
+
+
+
+
+Thread Lifecycle:
+1. New: The thread is created but has not yet started. 
+e.g: Thread thread = new Thread();
+
+2. Runnable: The thread is ready to run and is waiting for the CPU to execute it.
+e.g: thread.start(); // This will move the thread to the Runnable state
+
+3. Running: The thread is currently executing.
+e.g: When the thread scheduler selects the thread for execution, it moves to the Running state.
+
+4. Blocked: The thread is waiting for a resource or an event to occur.
+e.g: If a thread is waiting for a lock to be released, it will be in the Blocked state.
+
+5. Terminated: The thread has completed its execution or has been terminated by the system.
+
+e.g:
+public class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread is running");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread thread = new MyThread();
+        thread.start(); // Start the thread
+    }
+}
+
