@@ -12,7 +12,6 @@ Process Architecture:
 3. Scheduling: The operating system uses scheduling algorithms to determine which process gets to use the CPU at any given time. This allows multiple processes to run concurrently and share the CPU resources effectively.
 4. Inter-process Communication (IPC): Processes can communicate with each other using various IPC mechanisms, such as pipes, message queues, shared memory, and sockets. This allows processes to exchange data and coordinate their activities.
 
-
 Multithreading vs Multiprocessing:
 Multithreading and multiprocessing are two different approaches to achieving concurrent execution in a program.
 1. Multithreading: In multithreading, multiple threads run within the same process. They share the same memory space and resources, which allows for efficient communication and data sharing between threads. However, it also means that if one thread encounters an error or crashes, it can affect the entire process.
